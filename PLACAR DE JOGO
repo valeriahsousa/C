@@ -1,0 +1,25 @@
+/******************************************************************************
+Nome do Projeto: Placar de um Jogo
+Autor: Valéria
+*******************************************************************************/
+
+#include<stdio.h>
+int main()
+{
+  int gols_timeA,gols_timeB;
+  printf("\n ******* Placar de um jogo de futebol ******* \n");
+  printf("\n Digite o total de gols do time A: ");
+  scanf("%d",&gols_timeA);
+  printf("\n Digite o total de gols do time B: ");
+  scanf("%d",&gols_timeB);
+  if(gols_timeA==gols_timeB)
+   {
+     printf("\n o resultado do jogo foi um empate!");
+   }
+  else if(gols_timeA>gols_timeB)
+      {
+        printf("\n O time A venceu o jogo!"); 
+     }else
+        printf("\n O time B venceu o jogo! ");
+ return 0;
+}
