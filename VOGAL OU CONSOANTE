@@ -1,0 +1,18 @@
+/******************************************************************************
+Nome do Projeto: Vogal e Consoante
+Autor: Valéria
+*******************************************************************************/
+
+#include <stdio.h>
+int main() {
+    char letra;
+
+    printf("Digite uma Letra: ");
+    scanf("%c", &letra);
+    // a, e, i, o, u, A, E, I, O, U
+    if(letra == 'a' || letra == 'A' || letra == 'e' || letra == 'E' || letra == 'i'
+       || letra == 'I' || letra == '0' || letra == 'O' || letra == 'u' || letra == 'U')
+        printf("A letra digitada é uma \tVogal!\n");
+    else
+        printf("A letra digitada é uma \tConsoante!\n");
+}
